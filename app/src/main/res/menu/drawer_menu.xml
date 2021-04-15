@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_your_orders"
+            android:icon="@drawable/ic_orders_nav"
+            android:title="Your orders" />
+
+        <item
+            android:id="@+id/nav_address_book"
+            android:icon="@drawable/ic_address_book_nav"
+            android:title="Address Book" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_nav"
+            android:title="Feedback" />
+    </group>
+
+</menu>
